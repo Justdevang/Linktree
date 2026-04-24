@@ -10,7 +10,7 @@ interface LinkItem {
 const links: LinkItem[] = [
   {
     title: 'Personal Website',
-    url: 'https://justdevang.github.io/Portfolio/',
+    url: 'https://portfolio-zg4f.onrender.com/',
     icon: <Globe className="w-5 h-5" />,
   },
   {
@@ -20,7 +20,7 @@ const links: LinkItem[] = [
   },
   {
     title: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/devang-dhakate-002689142/',
+    url: 'https://www.linkedin.com/in/devang-dhakate',
     icon: <Linkedin className="w-5 h-5" />,
   },
   {
