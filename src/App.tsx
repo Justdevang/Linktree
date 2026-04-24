@@ -10,7 +10,7 @@ interface LinkItem {
 const links: LinkItem[] = [
   {
     title: 'Personal Website',
-    url: 'https://portfolio-zg4f.onrender.com/',
+    url: 'https://devang-dhakate.onrender.com/',
     icon: <Globe className="w-5 h-5" />,
   },
   {
@@ -40,7 +40,7 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-br from-zinc-900 via-black to-zinc-950 flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8 font-sans text-zinc-100">
       <div className="w-full max-w-md space-y-8">
         {/* Profile Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -62,7 +62,7 @@ export default function App() {
         </motion.div>
 
         {/* Links Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -93,7 +93,7 @@ export default function App() {
         </motion.div>
 
         {/* Footer */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 1 }}
